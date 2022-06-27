@@ -3,12 +3,7 @@ import java.util.Scanner;
 
 public class FindTheHiddenWord {
 	public static String perzgjidhFjalen(String[] fjalet) {
-		int j = (int) (Math.random() * fjalet.length);
-		String fjala = "";
-		for (int i = 0; i < fjalet.length; i++) {
-			fjala = fjalet[j];
-		}
-		return fjala;
+		return fjalet[(int) (Math.random() * fjalet.length)];
 	}
 
 	public static String fshihFjalen(String fjala) {
